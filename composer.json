@@ -1,5 +1,5 @@
 {
-    "name": "nomandia/iimage",
+    "name": "skyfuns/iimage",
     "description": "Simple picture upload toolkit.",
     "type": "library",
     "require": {
@@ -16,13 +16,13 @@
     ],
     "autoload": {
         "psr-4": {
-          "Nomandia\\IImage\\": "src/"
+          "Skyfuns\\IImage\\": "src/"
         }
     },
     "extra": {
         "laravel": {
           "providers": [
-            "Nomandia\\IImage\\IImageProvider"
+            "Skyfuns\\IImage\\IImageProvider"
           ]
         }
     }
