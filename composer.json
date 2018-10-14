@@ -1,29 +1,33 @@
 {
-    "name": "skyfuns/iimage",
-    "description": "Simple picture upload toolkit.",
-    "type": "library",
-    "require": {
-        "php": "7.2.1",
-        "laravel/framework": "5.6",
-        "qiniu/php-sdk": "dev-master"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "nomandia",
-            "email": "nomandia@qq.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-          "Skyfuns\\IImage\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Skyfuns\\IImage\\IImageProvider"
-            ]
-        }
+  "name": "skyfuns/iimage",
+  "description": "Simple picture upload toolkit.",
+  "require": {
+    "php": "^7.0",
+    "laravel/framework": "~5.6",
+    "qiniu/php-sdk": "~7.2"
+  },
+  "require-dev": {
+    "php": "^7.1.0",
+    "laravel/framework": "~5.5",
+    "qiniu/php-sdk": "~7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "634689854@qq.com",
+      "email": "634689854@qq.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skyfuns\\IImage\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Skyfuns\\IImage\\IImageProvider"
+      ]
+    }
+  }
 }
