@@ -1,6 +1,6 @@
 <?php
 
-namespace Nomandia\IImage;
+namespace Skyfuns\IImage;
 
 use Illuminate\Support\ServiceProvider;
 

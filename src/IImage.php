@@ -1,5 +1,5 @@
 <?php
-namespace Nomandia\IImage;
+namespace Skyfuns\IImage;
 
 class IImage
 {
