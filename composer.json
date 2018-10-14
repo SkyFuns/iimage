@@ -21,9 +21,12 @@
     },
     "extra": {
         "laravel": {
-          "providers": [
-            "Skyfuns\\IImage\\IImageProvider"
-          ]
+            "providers": [
+                "Skyfuns\\IImage\\IImageProvider"
+            ],
+            "aliases": {
+                "IImage": "Skyfuns\\IImage\\Facades\\IImage"
+            }
         }
     }
 }
